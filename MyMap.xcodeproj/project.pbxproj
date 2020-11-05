@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0699C22554615A001FEEE4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0699C12554615A001FEEE4 /* TableViewController.swift */; };
+		AF0699C425547968001FEEE4 /* DeleteAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0699C325547968001FEEE4 /* DeleteAnnotation.swift */; };
 		AF784BBB254EEE1B00A6BEB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF784BBA254EEE1B00A6BEB4 /* AppDelegate.swift */; };
 		AF784BBD254EEE1B00A6BEB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF784BBC254EEE1B00A6BEB4 /* SceneDelegate.swift */; };
 		AF784BBF254EEE1B00A6BEB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF784BBE254EEE1B00A6BEB4 /* ViewController.swift */; };
@@ -14,9 +16,13 @@
 		AF784BC5254EEE1B00A6BEB4 /* MyMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF784BC3254EEE1B00A6BEB4 /* MyMap.xcdatamodeld */; };
 		AF784BC7254EEE2000A6BEB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF784BC6254EEE2000A6BEB4 /* Assets.xcassets */; };
 		AF784BCA254EEE2000A6BEB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF784BC8254EEE2000A6BEB4 /* LaunchScreen.storyboard */; };
+		AF784BD4254F1BDF00A6BEB4 /* LocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF784BD3254F1BDF00A6BEB4 /* LocationsTableViewController.swift */; };
+		AF8F39C62551B7C3003C9A11 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F39C52551B7C3003C9A11 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF0699C12554615A001FEEE4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AF0699C325547968001FEEE4 /* DeleteAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAnnotation.swift; sourceTree = "<group>"; };
 		AF784BB7254EEE1B00A6BEB4 /* MyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF784BBA254EEE1B00A6BEB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF784BBC254EEE1B00A6BEB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +32,8 @@
 		AF784BC6254EEE2000A6BEB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF784BC9254EEE2000A6BEB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF784BCB254EEE2000A6BEB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF784BD3254F1BDF00A6BEB4 /* LocationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsTableViewController.swift; sourceTree = "<group>"; };
+		AF8F39C52551B7C3003C9A11 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				AF784BC8254EEE2000A6BEB4 /* LaunchScreen.storyboard */,
 				AF784BCB254EEE2000A6BEB4 /* Info.plist */,
 				AF784BC3254EEE1B00A6BEB4 /* MyMap.xcdatamodeld */,
+				AF784BD3254F1BDF00A6BEB4 /* LocationsTableViewController.swift */,
+				AF8F39C52551B7C3003C9A11 /* Data.swift */,
+				AF0699C12554615A001FEEE4 /* TableViewController.swift */,
+				AF0699C325547968001FEEE4 /* DeleteAnnotation.swift */,
 			);
 			path = MyMap;
 			sourceTree = "<group>";
@@ -142,9 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF784BBF254EEE1B00A6BEB4 /* ViewController.swift in Sources */,
+				AF0699C22554615A001FEEE4 /* TableViewController.swift in Sources */,
+				AF8F39C62551B7C3003C9A11 /* Data.swift in Sources */,
+				AF784BD4254F1BDF00A6BEB4 /* LocationsTableViewController.swift in Sources */,
 				AF784BBB254EEE1B00A6BEB4 /* AppDelegate.swift in Sources */,
 				AF784BC5254EEE1B00A6BEB4 /* MyMap.xcdatamodeld in Sources */,
 				AF784BBD254EEE1B00A6BEB4 /* SceneDelegate.swift in Sources */,
+				AF0699C425547968001FEEE4 /* DeleteAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
